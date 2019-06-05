@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24351" started-at="2019-06-05T08:09:34Z" finished-at="2019-06-05T08:09:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24351" started-at="2019-06-05T08:09:34Z" finished-at="2019-06-05T08:09:59Z">
+      <class name="selenium.Topic_01_CheckEnvironment">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.Topic_01_CheckEnvironment@548b7f67]" name="beforeClass" is-config="true" duration-ms="10109" started-at="2019-06-05T15:09:34Z" finished-at="2019-06-05T15:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC07_EditTable()[pri:0, instance:selenium.Topic_01_CheckEnvironment@548b7f67]" name="TC07_EditTable" duration-ms="13137" started-at="2019-06-05T15:09:44Z" finished-at="2019-06-05T15:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_EditTable -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.Topic_01_CheckEnvironment@548b7f67]" name="afterClass" is-config="true" duration-ms="1057" started-at="2019-06-05T15:09:58Z" finished-at="2019-06-05T15:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium.Topic_01_CheckEnvironment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
