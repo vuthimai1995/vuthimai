@@ -15,7 +15,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Topic_01_CheckEnvironment {
+public class Topic_08_Dropdown {
     WebDriver driver;
 
 	@BeforeClass
@@ -115,7 +115,7 @@ public class Topic_01_CheckEnvironment {
 		Thread.sleep(3000);
 	}
 	
-	//@Test
+	//@Test 
 	public void TC06_vueJS() throws Exception {
 		driver.get("https://mikerodham.github.io/vue-dropdowns/");
 		selectItemDropdow("//div[@class='btn-group']//span[@class='caret']", "//ul[@class='dropdown-menu']//li", "Second Option");
